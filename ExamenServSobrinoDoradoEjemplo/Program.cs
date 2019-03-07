@@ -10,6 +10,8 @@ namespace ExamenServSobrinoDoradoEjemplo
     {
         static void Main(string[] args)
         {
+            ServidorArchivos servidor = new ServidorArchivos();
+            servidor.iniciaServidorArchivos();
         }
     }
 }
